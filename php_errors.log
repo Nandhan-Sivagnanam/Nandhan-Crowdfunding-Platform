@@ -1,0 +1,167 @@
+[06-Mar-2025 11:14:55 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:27:37 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:28:05 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:28:24 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:40:21 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:40:23 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:41:55 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:42:04 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:42:04 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:42:38 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:42:44 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:42:45 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:42:48 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:42:48 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:42:53 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:42:53 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:46:04 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:46:17 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:46:22 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:46:34 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:46:45 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 11:48:18 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 12:04:22 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 12:04:35 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 12:07:43 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 12:07:45 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 12:07:47 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 12:07:51 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 12:23:57 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 12:24:00 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[06-Mar-2025 12:24:19 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\project\include\Admin_sidebar.php on line 2
+[10-Mar-2025 10:51:31 Europe/Berlin] PHP Warning:  Undefined array key "admin_id" in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 10:51:41 Europe/Berlin] PHP Warning:  Undefined array key "admin_id" in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 10:52:16 Europe/Berlin] PHP Warning:  Undefined array key "admin_id" in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 12:38:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:26
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(26): mysqli->prepare('SELECT password...')
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 26
+[10-Mar-2025 12:40:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:34
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(34): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 34
+[10-Mar-2025 12:45:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(6): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 12:45:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(6): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 12:45:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(6): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 12:45:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(6): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 12:46:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(6): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 12:46:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(6): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 12:46:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(6): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 12:48:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(6): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 12:48:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(6): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 12:48:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(6): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 12:48:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(6): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 12:49:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(6): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[10-Mar-2025 12:49:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(6): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(51): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 6
+[13-Mar-2025 15:45:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:21
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(21): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(91): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 21
+[13-Mar-2025 15:45:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:21
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(21): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(92): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 21
+[13-Mar-2025 15:45:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project\include\admin_header.php:21
+Stack trace:
+#0 C:\xampp\htdocs\project\include\admin_header.php(21): mysqli->ping()
+#1 C:\xampp\htdocs\project\campaign.php(92): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\project\include\admin_header.php on line 21
+[13-Mar-2025 15:48:57 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'close_type' in 'field list' in C:\xampp\htdocs\project\add_campaign.php:70
+Stack trace:
+#0 C:\xampp\htdocs\project\add_campaign.php(70): mysqli->prepare('INSERT INTO cam...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project\add_campaign.php on line 70
+[13-Mar-2025 15:49:09 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'close_type' in 'field list' in C:\xampp\htdocs\project\add_campaign.php:70
+Stack trace:
+#0 C:\xampp\htdocs\project\add_campaign.php(70): mysqli->prepare('INSERT INTO cam...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project\add_campaign.php on line 70
+[13-Mar-2025 15:49:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'close_type' in 'field list' in C:\xampp\htdocs\project\add_campaign.php:70
+Stack trace:
+#0 C:\xampp\htdocs\project\add_campaign.php(70): mysqli->prepare('INSERT INTO cam...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project\add_campaign.php on line 70
+[13-Mar-2025 15:49:43 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'close_type' in 'field list' in C:\xampp\htdocs\project\add_campaign.php:70
+Stack trace:
+#0 C:\xampp\htdocs\project\add_campaign.php(70): mysqli->prepare('INSERT INTO cam...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project\add_campaign.php on line 70
+[13-Mar-2025 15:59:03 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'close_type' in 'field list' in C:\xampp\htdocs\project\add_campaign.php:70
+Stack trace:
+#0 C:\xampp\htdocs\project\add_campaign.php(70): mysqli->prepare('INSERT INTO cam...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project\add_campaign.php on line 70

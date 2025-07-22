@@ -1,0 +1,662 @@
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"medical","category":"medical","description":"helloo","goal_amount":"13000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"medical","category":"medical","description":"work","goal_amount":"13000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"7"}
+Fetching campaign ID: 7
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"medical","category":"medical","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"medical","category":"medical","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"campaign_id":"3","title":"startup bussines","category":"","description":"work","goal_amount":"72377","start_date":"","end_date":""}
+Updating campaign ID 3 with data: {"campaign_id":"3","title":"startup bussines","category":"","description":"work","goal_amount":"72377","start_date":"","end_date":""}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"medical","category":"medical","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"medical","category":"medical","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"campaign_id":"8","title":"new actitvity","category":"","description":"123","goal_amount":"2000","start_date":"","end_date":""}
+Updating campaign ID 8 with data: {"campaign_id":"8","title":"new actitvity","category":"","description":"123","goal_amount":"2000","start_date":"","end_date":""}
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"medical","category":"Medical Support","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"medical","category":"Medical Support","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"medical","category":"Financial Support","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"medical","category":"Financial Support","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"medical","category":"Medical Support","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"medical","category":"Medical Support","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"medical111111111111111111111111111111111111111111111111111111111111111","category":"Medical Support","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"medical111111111111111111111111111111111111111111111111111111111111111","category":"Medical Support","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"medical111111111111111111111111111111111111111111122222222222222222222222222222211111111111111111111","category":"Medical Support","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"medical111111111111111111111111111111111111111111122222222222222222222222222222211111111111111111111","category":"Medical Support","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"Medical ","category":"Medical Support","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"Medical ","category":"Medical Support","description":"work","goal_amount":"23000","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"7"}
+Fetching campaign ID: 7
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"campaign_id":"3","title":"startup bussines","description":"work","goal_amount":"72377","start_date":"","end_date":""}
+Updating campaign ID 3 with data: {"campaign_id":"3","title":"startup bussines","description":"work","goal_amount":"72377","start_date":"","end_date":""}
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"campaign_id":"5","title":"medical","description":"123","goal_amount":"8000","start_date":"","end_date":"","close_type":"end_date"}
+Updating campaign ID 5 with data: {"campaign_id":"5","title":"medical","description":"123","goal_amount":"8000","start_date":"","end_date":"","close_type":"end_date"}
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"campaign_id":"8","title":"new actitvity","description":"123","goal_amount":"2000","start_date":"","end_date":""}
+Updating campaign ID 8 with data: {"campaign_id":"8","title":"new actitvity","description":"123","goal_amount":"2000","start_date":"","end_date":""}
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"7"}
+Fetching campaign ID: 7
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"7"}
+Fetching campaign ID: 7
+Request received: {"id":"7"}
+Fetching campaign ID: 7
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"7"}
+Fetching campaign ID: 7
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"7"}
+Fetching campaign ID: 7
+Request received: {"campaign_id":"7","title":"social","description":"123","goal_amount":"1270","start_date":"","end_date":""}
+Updating campaign ID 7 with data: {"campaign_id":"7","title":"social","description":"123","goal_amount":"1270","start_date":"","end_date":""}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"7"}
+Fetching campaign ID: 7
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"Medical ","category":"Medical Support","description":"work","goal_amount":"7200","start_date":"2025-03-12","end_date":"2025-04-12"}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"Medical ","category":"Medical Support","description":"work","goal_amount":"7200","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"Medical ","category":"Medical Support","description":"Natraj, a loving father of two, has been diagnosed with stage 3 lymphoma. His treatment requires multiple chemotherapy sessions, radiation therapy, and specialized medications. The medical expenses are overwhelming, and his family is struggling to cover the costs.\r\n\r\nWith your generous support, we can ensure John gets the life-saving treatment he needs. Every donation brings us one step closer to giving him a fighting chance. Please contribute and share this campaign to spread awareness. Together, we can make a difference!\r\n\r\nGoal Amount: $50,000","goal_amount":"7200","start_date":"2025-03-12","end_date":"2025-04-12"}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"Medical ","category":"Medical Support","description":"Natraj, a loving father of two, has been diagnosed with stage 3 lymphoma. His treatment requires multiple chemotherapy sessions, radiation therapy, and specialized medications. The medical expenses are overwhelming, and his family is struggling to cover the costs.\r\n\r\nWith your generous support, we can ensure John gets the life-saving treatment he needs. Every donation brings us one step closer to giving him a fighting chance. Please contribute and share this campaign to spread awareness. Together, we can make a difference!\r\n\r\nGoal Amount: $50,000","goal_amount":"7200","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"Medical ","category":"Medical Support","description":"Natraj, a loving father of two, has been diagnosed with stage 3 lymphoma. His treatment requires multiple chemotherapy sessions, radiation therapy, and specialized medications. The medical expenses are overwhelming, and his family is struggling to cover the costs.\r\n","goal_amount":"7200","start_date":"2025-03-12","end_date":"2025-04-12"}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"Medical ","category":"Medical Support","description":"Natraj, a loving father of two, has been diagnosed with stage 3 lymphoma. His treatment requires multiple chemotherapy sessions, radiation therapy, and specialized medications. The medical expenses are overwhelming, and his family is struggling to cover the costs.\r\n","goal_amount":"7200","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"Medical ","category":"Medical Support","description":"Natraj,His treatment requires multiple chemotherapy sessions, radiation therapy, and specialized medications. The medical expenses are overwhelming, and his family is struggling to cover the costs.\r\n","goal_amount":"7200","start_date":"2025-03-12","end_date":"2025-04-12"}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"Medical ","category":"Medical Support","description":"Natraj,His treatment requires multiple chemotherapy sessions, radiation therapy, and specialized medications. The medical expenses are overwhelming, and his family is struggling to cover the costs.\r\n","goal_amount":"7200","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"Medical Support Needed !!","category":"Medical Support","description":"Natraj,His treatment requires multiple chemotherapy sessions, radiation therapy, and specialized medications. The medical expenses are overwhelming, and his family is struggling to cover the costs.\r\n","goal_amount":"7200","start_date":"2025-03-12","end_date":"2025-04-12"}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"Medical Support Needed !!","category":"Medical Support","description":"Natraj,His treatment requires multiple chemotherapy sessions, radiation therapy, and specialized medications. The medical expenses are overwhelming, and his family is struggling to cover the costs.\r\n","goal_amount":"7200","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"9"}
+Fetching campaign ID: 9
+Request received: {"campaign_id":"9","title":"financial help \/ Startups ","category":"Financial Support","description":"EmpowerTech is a groundbreaking startup dedicated to bringing AI-driven solutions to small businesses, helping them automate operations, enhance customer engagement, and boost efficiency. Our goal is to develop an intuitive AI-powered platform that simplifies business management for entrepreneurs.","goal_amount":"12000","start_date":"","end_date":""}
+Updating campaign ID 9 with data: {"campaign_id":"9","title":"financial help \/ Startups ","category":"Financial Support","description":"EmpowerTech is a groundbreaking startup dedicated to bringing AI-driven solutions to small businesses, helping them automate operations, enhance customer engagement, and boost efficiency. Our goal is to develop an intuitive AI-powered platform that simplifies business management for entrepreneurs.","goal_amount":"12000","start_date":"","end_date":""}
+Request received: {"id":"9"}
+Fetching campaign ID: 9
+Request received: {"campaign_id":"9","title":"financial help \/ Startups ","category":"Financial Support","description":"EmpowerTech is a groundbreaking startup dedicated to bringing AI-driven solutions to small businesses, helping them automate operations, enhance customer engagement, and boost efficiency.","goal_amount":"12000","start_date":"","end_date":""}
+Updating campaign ID 9 with data: {"campaign_id":"9","title":"financial help \/ Startups ","category":"Financial Support","description":"EmpowerTech is a groundbreaking startup dedicated to bringing AI-driven solutions to small businesses, helping them automate operations, enhance customer engagement, and boost efficiency.","goal_amount":"12000","start_date":"","end_date":""}
+Request received: {"id":"9"}
+Fetching campaign ID: 9
+Request received: {"campaign_id":"9","title":"financial help \/ Startups ","category":"Financial Support","description":"EmpowerTech is a groundbreaking startup dedicated to bringing AI-driven solutions to small businesses, helping them automate operations, enhance customer engagement.","goal_amount":"12000","start_date":"","end_date":""}
+Updating campaign ID 9 with data: {"campaign_id":"9","title":"financial help \/ Startups ","category":"Financial Support","description":"EmpowerTech is a groundbreaking startup dedicated to bringing AI-driven solutions to small businesses, helping them automate operations, enhance customer engagement.","goal_amount":"12000","start_date":"","end_date":""}
+Request received: {"id":"9"}
+Fetching campaign ID: 9
+Request received: {"campaign_id":"9","title":"financial help \/ Startups ","category":"Financial Support","description":"EmpowerTech is a groundbreaking startup dedicated to bringing AI-driven solutions to small businesses, enhance customer engagement.","goal_amount":"12000","start_date":"","end_date":""}
+Updating campaign ID 9 with data: {"campaign_id":"9","title":"financial help \/ Startups ","category":"Financial Support","description":"EmpowerTech is a groundbreaking startup dedicated to bringing AI-driven solutions to small businesses, enhance customer engagement.","goal_amount":"12000","start_date":"","end_date":""}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"Medical Emergency","category":"Medical Support","description":"work","goal_amount":"7200","start_date":"2025-03-12","end_date":"2025-04-12"}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"Medical Emergency","category":"Medical Support","description":"work","goal_amount":"7200","start_date":"2025-03-12","end_date":"2025-04-12"}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"id":"8"}
+Fetching campaign ID: 8
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"3"}
+Fetching campaign ID: 3
+Request received: {"campaign_id":"3","title":"startup bussines","category":"Financial Support","description":"work","goal_amount":"72377","start_date":"","end_date":""}
+Updating campaign ID 3 with data: {"campaign_id":"3","title":"startup bussines","category":"Financial Support","description":"work","goal_amount":"72377","start_date":"","end_date":""}
+Request received: {"id":"5"}
+Fetching campaign ID: 5
+Request received: {"campaign_id":"5","title":"medical","category":"Medical Support","description":"123","goal_amount":"8000","start_date":"","end_date":""}
+Updating campaign ID 5 with data: {"campaign_id":"5","title":"medical","category":"Medical Support","description":"123","goal_amount":"8000","start_date":"","end_date":""}
+Request received: {"id":"7"}
+Fetching campaign ID: 7
+Request received: {"campaign_id":"7","title":"social","category":"Environment","description":"123","goal_amount":"1270","start_date":"","end_date":""}
+Updating campaign ID 7 with data: {"campaign_id":"7","title":"social","category":"Environment","description":"123","goal_amount":"1270","start_date":"","end_date":""}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"Support John's Medical Treatment Journey","category":"Medical Support","description":"John has been diagnosed with a rare illness that requires urgent and costly treatment not covered by insurance. We are asking for your generosity to help fund his medical bills, medications, and recovery therapies. Let's come together to ease John's burden and give him hope.","goal_amount":"7200","start_date":"2025-03-12","end_date":""}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"Support John's Medical Treatment Journey","category":"Medical Support","description":"John has been diagnosed with a rare illness that requires urgent and costly treatment not covered by insurance. We are asking for your generosity to help fund his medical bills, medications, and recovery therapies. Let's come together to ease John's burden and give him hope.","goal_amount":"7200","start_date":"2025-03-12","end_date":""}
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"campaign_id":"1","title":"Support to the women's Medical Treatment Journey","category":"Medical Support","description":"the women  has been diagnosed with a rare illness that requires urgent and costly treatment not covered by insurance. We are asking for your generosity to help fund his medical bills, medications, and recovery therapies. Let's come together to ease women's burden and give him hope.","goal_amount":"7200","start_date":"2025-03-12","end_date":""}
+Updating campaign ID 1 with data: {"campaign_id":"1","title":"Support to the women's Medical Treatment Journey","category":"Medical Support","description":"the women  has been diagnosed with a rare illness that requires urgent and costly treatment not covered by insurance. We are asking for your generosity to help fund his medical bills, medications, and recovery therapies. Let's come together to ease women's burden and give him hope.","goal_amount":"7200","start_date":"2025-03-12","end_date":""}
+Request received: {"id":"37"}
+Fetching campaign ID: 37
+Request received: {"id":"38"}
+Fetching campaign ID: 38
+Request received: {"id":"1"}
+Fetching campaign ID: 1
+Request received: {"id":"37"}
+Fetching campaign ID: 37
+Request received: {"id":"41"}
+Fetching campaign ID: 41

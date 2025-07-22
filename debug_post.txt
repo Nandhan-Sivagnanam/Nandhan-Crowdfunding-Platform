@@ -1,0 +1,11 @@
+Array
+(
+    [campaign_id] => 
+    [title] => education funds needed for village children's
+    [category] => Education
+    [description] => 1
+    [goal_amount] => 12345
+    [start_date] => 2025-03-23
+    [end_date] => 2025-03-28
+    [close_type] => end_date
+)

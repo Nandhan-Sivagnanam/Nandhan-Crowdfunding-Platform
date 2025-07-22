@@ -1,0 +1,13 @@
+Array
+(
+    [image] => Array
+        (
+            [name] => education.jpg
+            [full_path] => education.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php8226.tmp
+            [error] => 0
+            [size] => 529259
+        )
+
+)
