@@ -1,0 +1,45 @@
+.navbar{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.navdiv{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 25px;
+}
+.nav-menu{
+    margin-left: 63%;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 25px;
+}
+button{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #00A36C;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: none;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
