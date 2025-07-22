@@ -1,0 +1,267 @@
+/* General Page Layout */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    padding-top: 50px; /* Ensures the body content starts below the header */
+}
+/* Header (if fixed) */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #2c3e50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+}
+.no-results td {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.no-results {
+    display: table-row;
+}
+/* User Section Styles */
+.user-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 100px auto 20px; /* Ensures a gap from the header */
+    max-width: 90%;
+    width: 1200px;
+}
+/*  Flexbox for alignment */
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4; /* Soft background */
+    padding: 12px 20px;
+    border-radius: 8px; 
+    margin-top: 40px;
+    margin-bottom: 15px; /* Spacing below */
+}
+
+/*  H2 Styling */
+.search-container h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/*  Search Box Styling */
+.search-box {
+    padding: 6px 10px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 180px; /* Adjusted width for usability */
+    background: #fff;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/*  Hover & Focus Effect */
+.search-box:focus {
+    border-color: #015f06;
+    outline: none;
+}
+
+/* User Table */
+table {
+    width: 100%;
+    border-collapse: separate; /* Allows proper border-radius */
+    border-spacing: 0;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden; /* Ensures border-radius applies correctly */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 40px; /* Space between h2 and table */
+    text-align: center; /* Centers the text inside table cells */
+}
+
+/* Rounded Corners Fix */
+table thead tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+table thead tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+/* Center table content */
+th, td {
+    padding: 15px;
+    text-align: center; /* Ensures all text inside table is centered */
+    border: 1px solid #ccc;
+}
+
+/* Ensure table headers look structured */
+th {
+    background: #2c3e50;
+    color: white;
+    border-bottom: 2px solid #34495e;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Hover effect */
+tr:hover {
+    background: #65b9a94f;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* User Details Section */
+.user-details {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    display: none;
+    max-width: 800px;
+    text-align: center;
+}
+/* General Button Styles */
+button {
+    padding: 8px 15px;
+    border: none;
+    /* border-radius: 4px; */
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 1px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+/* Center buttons inside action columns */
+td:last-child {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.edit-btn {
+    background: green;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+.edit-btn:hover {
+    transform: scale(1.05);
+}
+.delete-btn {
+    background: red;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    transform: scale(1.05);
+}
+.save-btn {
+    background: rgb(0, 153, 224);
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+.save-btn:hover { 
+    transform: scale(1.05);
+}
+
+.cancel-btn {
+    background:red;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+.cancel-btn:hover {
+    transform: scale(1.05);
+}
+/* Button Press Effect */
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+/* General input field styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    /* width: 40%; */
+    padding: 5px 15px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    font-size: 13px;
+    background: #f9f9f9;
+    transition: 0.3s ease-in-out;
+    outline: none;
+}
+
+/* Focus effect */
+input:focus,
+select:focus {
+    border-color: #015f06;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+/* Placeholder styling */
+input::placeholder {
+    color: #999;
+}
+
+/* Styling for dropdowns */
+select {
+    cursor: pointer;
+}
+
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    margin-left: 260px;
+    padding: 30px;
+    /* background: #f4f6f9; */
+    min-height: 100vh;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 200px;
+        width: calc(100% - 200px);
+    }
+}
+/* Responsive Fix */
+@media (max-width: 768px) {
+    body {
+        padding-top: 120px;
+    }
+    
+    .user-section {
+        width: 95%;
+        margin-top: 120px;
+    }
+}

@@ -1,0 +1,235 @@
+/* Dashboard Styles */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-header h2 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.card {
+    background: #65b9a93f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.stats-icon {
+    font-size: 30px;
+    color: #3498db;
+    margin-bottom: 5px;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+.main-content {
+    flex: 1;
+    margin-top: 70px;
+    margin-left: 260px;
+    padding: 30px;
+ 
+    min-height: 100vh;
+}
+/* Campaign Table Styling */
+.campaigns-table {
+    width: 50%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centers inner contents */
+}
+.content-section .text{
+ margin-top: 31px;
+ font-size: 20px;
+ color: #2c3e50;
+}
+/* Table Header Styling */
+.campaigns-table th {
+    background: #2c3e50;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px 15px;
+    border-right: 1px solid #e0e0e0; /* Single-line differentiation */
+}
+
+/* Table Row Styling */
+.campaigns-table th:last-child,
+.campaigns-table td:last-child {
+    border-right: none; /* Remove right border for the last column */
+}
+
+.campaigns-table th, .campaigns-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 16px;
+    text-align: center; /* Centers text */
+    border-right: 1px solid #e0e0e0; /* Differentiates columns */
+}
+
+/* Alternating Row Colors */
+.campaigns-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.campaigns-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Hover Effect */
+.campaigns-table tbody tr:hover {
+    background: #65b9a94f;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Image Styling */
+.campaigns-table td img {
+    width: 90px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+/* * Style for status buttons */
+.status-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    display: inline-block;
+    min-width: 80px;
+    font-weight: bold;
+}
+
+/* Approved - Green */
+.status-btn.approved {
+    background-color: #d4edda;
+    color: #155724;
+    border: 2px solid #c3e6cb;
+}
+
+/* Pending - Yellow */
+.status-btn.pending {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 2px solid #ffeeba;
+}
+
+/* Rejected - Red */
+.status-btn.rejected {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 2px solid #f5c6cb;
+}
+/* Users Table Styling */
+.users-table {
+    width: 40%;
+    position: absolute;
+    margin-left: 49%;
+    top: 43%; /* Adjusts position below the title */
+    right: 20px;
+    border-collapse: collapse; /* Ensures proper border rendering */
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Moves the "Recent Users" title above the table */
+.user-text {
+    position: absolute;
+    margin-left: 40%;
+    top: 36%; /* Places it directly above the table */
+    right: 34.4%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Table Header Styling */
+.users-table th {
+    background: #2c3e50;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px 15px;
+    border-bottom: 2px solid #ddd; /* Adds separator line below header */
+}
+
+/* Table Row Styling */
+.users-table th, .users-table td {
+    padding: 12px 15px;
+    font-size: 16px;
+    border-right: 1px solid #ddd; /* Column separator */
+}
+
+/* Remove last column border to avoid double line effect */
+.users-table th:last-child, 
+.users-table td:last-child {
+    border-right: none;
+}
+
+/* Alternating Row Colors */
+.users-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.users-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Hover Effect */
+.users-table tbody tr:hover {
+    background: #65b9a94f;
+    transition: background 0.3s ease-in-out;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 200px;
+        width: calc(100% - 200px);
+    }
+}

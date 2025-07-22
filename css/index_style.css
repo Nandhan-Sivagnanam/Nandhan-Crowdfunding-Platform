@@ -1,0 +1,177 @@
+/* General Styles */
+body {
+  font-family: "Poppins", serif;
+}
+body.poppins-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Hero Section */
+body.index-page header {
+  /* height: 562.19px;
+  padding-bottom: 10%; */
+  text-align: center;
+  color: white;
+  /* padding-top: 10%; */
+  background-color: #001D24;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  z-index: 2; /* Ensure this content is above the images */
+}
+.container .h-button{
+  margin-top: 30px;
+}
+.h-button {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding: 14px 28px;
+  background-color: #00A36C;
+  border-radius: 5px;
+}
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  height: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 562.19px;
+  object-fit: cover;
+  object-position: 50% 25%;
+  opacity: 0.3;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+  z-index: 3; /* Ensure these buttons are above everything else */
+  text-decoration: none;
+}
+
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/*---------- category card section-------*/
+.category-card{
+  width: 190px;
+  height: 180.9px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  border: 1px solid #d3d6d7;
+  padding: 5px;
+  border-radius: 15px;
+ 
+}
+.row{
+flex-wrap: wrap;
+justify-content: center;
+}
+
+
+/* ------------Featured Project Cards -------*/
+.card {
+  margin-bottom: 20px;
+  width: 380px;
+  height: 452px; /* Ensures all cards have the same height */
+  display: flex;
+  flex-direction: column; /* Stacks content vertically */
+}
+
+.card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Allows text to expand but ensures button stays at bottom */
+}
+.goal-amount {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px; /* Adds spacing between goal amount and button */
+}
+.btn {
+  background-color: #00A36C;
+  font-weight: bold;
+  border: none;
+  /* width: 145px; */
+}
+
+.btn:hover {
+  background-color: #001D24;
+}
+
+.mt-auto {
+  margin-top: auto; /* Pushes the button to the bottom */
+}
+.card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Show only 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 4.5em; /* 1.5em line height × 3 lines = 4.5em */
+}
+
+/* --------old card css------- */
+/* .card {
+  margin-bottom: 20px;
+  width: 380px;
+  height: 452px;
+}
+
+.card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+.btn{
+ background-color: #00A36C;
+ font-weight: bold;
+ border: none;
+}
+.btn:hover{
+  background-color: #001D24;
+}
+.mt-auto {
+  margin-top: auto; 
+} */
+
+

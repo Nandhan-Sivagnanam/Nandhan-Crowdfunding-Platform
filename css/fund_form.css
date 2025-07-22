@@ -1,0 +1,102 @@
+body {
+    font-family: "Poppins", serif;
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    font-family: Poppins, Helvetica, sans-serif;
+    background-color: white;
+    padding: 55px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 35px;
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    display: block;
+    color: #666;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #00796b;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 121, 107, 0.5);
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: #00796b;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+    background-color: #004d40;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+#image-preview {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#image-preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

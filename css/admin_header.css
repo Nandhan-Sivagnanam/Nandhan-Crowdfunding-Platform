@@ -1,0 +1,263 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+/* Top nav Bar */
+.top-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 260px);
+    height: 60px;
+    background: #2c3e50;
+    display: flex;
+    justify-content: flex-end; /* Aligns everything to the right */
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Admin Container (Aligns Home + Admin to the right) */
+.admin-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Home Link */
+.home-link {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.home-link i {
+    font-size: 18px;
+}
+
+.home-link:hover {
+    background: #1abc9c;
+}
+
+/* Admin Menu */
+.admin-menu {
+    position: relative;
+    cursor: pointer;
+}
+
+.admin-name {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Hover Effect for Admin Name */
+.admin-name:hover {
+    background: #1abc9c;
+}
+
+/* Stylish Dropdown Menu */
+.dropdown-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: white;
+    width: 220px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    z-index: 101;
+    display: none;
+    flex-direction: column;
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown-menu.show {
+    display: flex;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* -----------Dropdown Items -----------------*/
+.dropdown-menu a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+    transition: all 0.3s;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.dropdown-menu a:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu a i {
+    font-size: 18px;
+    color: red;
+}
+
+.dropdown-menu a:hover {
+    background:#f4f4f4;
+}
+
+/* .dropdown-menu a:hover i {
+    color: white;
+} */
+
+/* Show dropdown when clicked */
+.dropdown-menu.show {
+    display: flex;
+}
+
+/* Hide dropdown by default */
+.hidden {
+    display: none;
+}
+.dropdown-menu .password{
+    font-weight: bold;
+    color: #007bff;
+}
+.dropdown-menu .password .fas{
+    color: #007bff;
+}
+/*---------- Change Password Modal----------------- */
+#changePasswordModal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Content */
+.modal-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 360px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    position: relative;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Modal Heading */
+.modal-content h2 {
+    margin-bottom: 30px;
+    color: #222;
+    font-size: 22px;
+    font-weight: 700;
+}
+.modal-content ::placeholder{
+    font-weight: 600;
+    color: #33333356;
+}
+/* Input Fields */
+.modal-content input {
+    width: calc(95% - 10px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+    background-color: #f9f9f9;
+}
+
+.modal-content input:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Submit Button */
+.modal-content button {
+    width: 80%;
+    padding: 12px;
+    border: none;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content button:hover {
+    background: linear-gradient(135deg, #0056b3, #003b80);
+    transform: translateY(-2px);
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #777;
+    transition: all 0.3s ease-in-out;
+}
+
+.close:hover {
+    color: #222;
+    transform: scale(1.1);
+}
+.hidden {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 420px) {
+    .modal-content {
+        width: 90%;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,45 @@
+footer {
+  background-color: #001D24;
+  height: 400px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.footer-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 0 20px; 
+}
+
+.footer_item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  width: 100%; 
+  margin-top: 18%;
+  margin-left: 20%;
+}
+
+.footer_item .title {
+  display: block;
+  margin-bottom: 10px; 
+}
+
+.footer_item .paragraph {
+  font-size: 14px;
+  margin-top: 0; 
+  white-space: normal; 
+  text-align: justify;
+}
+
+/* Fixed Footer Copyright Position */
+footer .c-right {
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}

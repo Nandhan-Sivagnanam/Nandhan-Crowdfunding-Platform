@@ -1,0 +1,489 @@
+/* General Page Styling */
+.campaign-container {
+    margin-left: 260px; /* Ensures space for the sidebar */
+    padding: 30px;
+    background: #f4f6f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers inner content */
+}
+
+/* Header Styling */
+.campaign-header {
+    display: flex;
+    justify-content: center; /* Centering table name */
+    align-items: center;
+    margin-bottom: 40px; /* Added spacing between header and table */
+    width: 100%;
+}
+.campaign-header h2 {
+    font-size: 26px;
+    color: #2c3e50;
+    font-weight: bold;
+    text-align: center;
+}
+/*  Search Container Styling */
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-top: 85px;
+}
+.search-container .add-button{
+    margin-left: 71%;
+    background: #28a745; /* Green color */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+
+}
+/* H2 Styling */
+.search-container h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/*  Search Box Styling */
+.search-box {
+    padding: 6px 10px;
+    font-size: 13px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 180px; /* Adjust width */
+    background: #fff;
+}
+
+/*  Search Box Focus Effect */
+.search-box:focus {
+    border-color: #015f06;
+    outline: none;
+}
+
+/* Campaign Table Container */
+.campaign-table-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1200px;
+    overflow-x: auto;
+    margin-bottom: 30px; /* Spacing between tables */
+    border: 2px solid #ddd; /* Divider between tables */
+}
+
+/* Campaign Table */
+.campaign-table {
+    margin-top: 40px;  
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: center; /* Centering content */
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures rounded corners apply properly */
+}
+
+/* Table Header Styling */
+.campaign-table th {
+    background: #2c3e50;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+}
+/* Restrict title to a single line with ellipsis */
+td:first-child {
+    max-width: 200px; /* Adjust width as needed */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Smooth border-radius for the table */
+.campaign-table thead tr:first-child th:first-child {
+    border-top-left-radius: 12px;
+}
+.campaign-table thead tr:first-child th:last-child {
+    border-top-right-radius: 12px;
+}
+
+.campaign-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 12px;
+}
+.campaign-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 12px;
+}
+
+/* Alternating Column Colors */
+.campaign-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ccc; /* Divider for rows */
+    border-right: 1px solid #ddd; /* Divider for columns */
+}
+
+.campaign-table tr td:nth-child(odd) {
+    background: #f9f9f9; /* Light grey for odd columns */
+}
+
+.campaign-table tr td:nth-child(even) {
+    background: #ffffff; /* White for even columns */
+}
+
+/* Remove border on last column */
+.campaign-table th:last-child,
+.campaign-table td:last-child {
+    border-right: none;
+}
+
+/* Table Hover Effect */
+.campaign-table tr:hover td {
+    background: #65b9a94f;
+    color: rgb(0, 0, 0);  /* text goes white */
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Campaign Status Styling */
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 80px;
+}
+
+.status.approved {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.status.pending {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+
+.status.rejected {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+.approve-btn {
+    background: green;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+.approve-btn:hover {
+    transform: scale(1.04);
+}
+.reject-btn {
+    background: red;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+.reject-btn:hover {
+    transform: scale(1.04);
+}
+/* Raised Amount */
+.raised-amount {
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* End Date */
+.end-date {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+/* Category Styling */
+.category {
+    font-weight: bold;
+}
+
+/* Action Buttons */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.edit-btn, .delete-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.edit-btn {
+    background: rgb(0, 153, 224);
+    color: #fff;
+}
+
+.edit-btn:hover {
+        transform: scale(1.04);
+}
+
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+}
+
+.delete-btn:hover {
+    background: #c0392b;
+}
+/* Details Button */
+.details-btn {
+    background: #3498db;
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.details-btn:hover {
+    background: #2980b9;
+}
+.inline-form {
+    display: inline-block;
+    margin: 0 5px;
+}
+/* ----edit model---- */
+.hidden {
+    display: none;
+}
+
+/* Edit Campaign Section */
+#editCampaignSection {
+    width: 90%; 
+    margin: 80px auto 40px; 
+    margin-right: 15%; 
+    padding: 25px 5%; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background: #f9f9f9; 
+}
+#addCampaignSection .h2{
+    margin-bottom: 10%;
+}
+/* Form Layout */
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+    font-weight: 600;
+    width: 170px;
+    text-align: left;
+    padding-right: 12px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Input Fields */
+.edit-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 100%;
+    background: #fff;
+    transition: border 0.3s ease-in-out;
+}
+
+/* Input Focus Effect */
+.edit-input:focus {
+    border-color: #2c3e50;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Textarea Styling */
+textarea.edit-input {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* File Input */
+input[type="file"].edit-input {
+    border: none;
+    padding: 5px;
+}
+
+/* Submit Button */
+.edit-button {
+    background: #1abc9c;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 12px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.edit-button:hover {
+    transform: scale(1.04);
+}
+
+/* Back Button */
+.back-button {
+    margin-left: 95%;
+    display: inline-block;
+    background: #2c3e50;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.back-button:hover {
+    transform: scale(1.04);
+}
+.custom-file-label {
+    background: #1abc9c;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px 0px 0px 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 130px; /* Adjust as needed */
+    height: 100%;
+}
+/* aad campaign section */
+#addCampaignSection {
+    background: #f9f9f9; 
+    padding: 25px 5%;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: auto; 
+}
+
+.back-button-container {
+    text-align: right;
+}
+
+.back-button {
+    background: #2c3e50; /* Red color */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    transform: scale(1.04);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #editCampaignSection {
+        width: 95%; /* Adjust for smaller screens */
+        margin-right: 5%; /* Further reduce margin */
+        padding: 20px;
+    }
+
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    label {
+        width: 100%;
+        margin-bottom: 6px;
+        text-align: left;
+    }
+
+    .edit-input {
+        width: 100%;
+    }
+
+    .back-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    margin-left: 260px;
+    padding: 35px;
+    min-height: 100vh;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 200px;
+        width: calc(100% - 200px);
+    }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .campaign-container {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .campaign-table-container {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .campaign-table th,
+    .campaign-table td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .add-campaign-btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}

@@ -1,0 +1,218 @@
+/* Apply Poppins font globally */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Ensure table, buttons, and headings also use Poppins */
+h1, h2, h3, h4, h5, h6, p, table, button {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Main Content Layout */
+.main-content {
+    width: calc(100% - 260px); /* Adjusted for sidebar */
+    margin-left: 260px; /* Ensuring correct spacing */
+    padding: 30px;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+/* Header and H2 Spacing */
+.main-content .text {
+    text-align: left;
+    padding: 10px 15px;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    color: #333;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    width: 93%;
+}
+
+/* Table Container */
+.message-table-container {
+    width: 95%;
+    margin-top: 50px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+/* Table Wrapper */
+.message-table {
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Table Styling */
+.message-table table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px 0px; /* Ensures column lines appear correctly */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Table Headers */
+.message-table th {
+    background-color: #34495e;
+    color: white;
+    padding: 12px;
+    border-bottom: 2px solid #2c3e50;
+}
+
+/* Table Cells */
+.message-table td {
+    background-color: #f9f9f9;
+    color: black;
+    padding: 12px;
+    border-bottom: 1px solid #ddd; /* Row line */
+    border-right: 1px solid #ccc; /* Thin vertical column line */
+}
+
+/* Remove last column border */
+.message-table td:last-child {
+    border-right: none;
+}
+
+/* Apply border-radius only to top corners of the first row */
+.message-table thead th:first-child {
+    border-top-left-radius: 12px;
+}
+
+.message-table thead th:last-child {
+    border-top-right-radius: 12px;
+}
+
+/* Apply border-radius only to bottom corners of the last row */
+.message-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 12px;
+}
+
+.message-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 12px;
+}
+/* Table Hover Effect */
+.message-table tr:hover td {
+    background: #65b9a94f;
+    color: rgb(0, 0, 0);  /* text goes white */
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Unread Messages - Background Wrapped to Text */
+td span.unread {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff6b6b, #e74c3c);
+    color: white !important;
+    font-weight: bold !important;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0px 2px 5px rgba(231, 76, 60, 0.5);
+}
+
+/* Read Messages - Background Wrapped to Text */
+td span.read {
+    display: inline-block;
+    background: linear-gradient(135deg, #27ae60, #2ecc71);
+    color: white !important;
+    font-weight: bold !important;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0px 2px 5px rgba(46, 204, 113, 0.5);
+}
+
+/* Sidebar for Message Details */
+.message-sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Hidden initially */
+    width: 350px; /* Increased for readability */
+    height: 100vh;
+    background: white;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: right 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    z-index: 1000; /* Ensures visibility */
+}
+
+/* Show Sidebar */
+.message-sidebar.show {
+    right: 0;
+}
+
+/* Sidebar Title */
+.message-sidebar h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    background: #f4f4f4;
+    border-radius: 12px;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+/* Sidebar Content */
+#messageContent {
+    flex-grow: 1;
+    padding: 10px;
+    max-height: 75vh; /* Prevents overflow */
+    overflow-y: auto;
+}
+
+/* Sidebar Close Button */
+.message-sidebar button {
+    width: 50%;
+    background: #2c3e50;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: auto;
+    cursor: pointer;
+}
+
+/* Buttons */
+button {
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.view-btn {
+    background-color: #3498db;
+    color: white;
+}
+
+.view-btn:hover {
+    background-color: #2980b9;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Prevents unwanted horizontal scrolling */
+html, body {
+    overflow-x: hidden;
+}

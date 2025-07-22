@@ -1,0 +1,136 @@
+
+/* Apply Poppins font globally */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/* Home Header Styles */
+.home-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Navbar Links */
+.home-header .navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Active and Hover State */
+.home-header .navbar-nav .nav-link:hover,
+.home-header .navbar-nav .nav-link.active {
+  color: #00A36C;
+}
+
+/* Start Fundraiser Button */
+.home-header .nav_button {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff !important;
+  background-color: #00A36C;
+  padding: 8px 15px;
+  border-radius: 9px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+.home-header .navbar .container.navbar-brand{
+  font-family: "Poppins", serif;
+}
+/* Hover Effect */
+.home-header .nav_button:hover {
+  background-color: #00A36C;
+  text-decoration: none;
+}
+
+/* Dropdown Menu */
+.home-header .dropdown-menu {
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+/* Dropdown Items */
+.home-header .dropdown-menu .dropdown-item {
+  padding: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover and Active State */
+.home-header .dropdown-menu .dropdown-item:hover,
+.home-header .dropdown-menu .dropdown-item:focus,
+.home-header .dropdown-menu .dropdown-item:active {
+  background-color: #00A36C !important;
+  color: white !important;
+}
+
+/* Ensure Navbar Items Stay in Line */
+.home-header .navbar-nav {
+  align-items: center;
+}
+
+/* Responsive Navbar Toggle */
+.home-header .navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.home-header .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* Fix Hero Section Overlap */
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 70vh; /* Ensures hero section has height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000; /* Adjust based on your design */
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
+/* Fix Slider Inside Hero */
+.hero .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.slider .slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Fix Navigation Arrows */
+.hero .prev,
+.hero .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.hero .prev {
+  left: 10px;
+}
+
+.hero .next {
+  right: 10px;
+}

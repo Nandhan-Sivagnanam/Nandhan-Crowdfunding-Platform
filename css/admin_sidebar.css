@@ -1,0 +1,71 @@
+/* Apply Poppins font globally */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.sidebar {
+    width: 260px;
+    height: 100vh;
+    background: #2c3e50;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    width: 100%;
+}
+
+/* Sidebar Links */
+.sidebar ul li a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: 0.3s;
+    border-left: 4px solid transparent;
+}
+
+/* Hover Effect */
+.sidebar ul li a:hover {
+    background: #1abc9c;
+    border-left: 4px solid #ffffff;
+}
+
+/* Active Link */
+.sidebar ul li a.active {
+    background: #16a085;
+}
+.sidebar ul li.active a {
+    background: #16a085;
+    color: white;
+    font-weight: bold;
+}
+
+/* Icons */
+.sidebar ul li a i {
+    font-size: 18px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+}

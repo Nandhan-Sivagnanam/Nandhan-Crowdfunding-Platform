@@ -1,0 +1,233 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Main Content Layout */
+.main-content {
+    max-width: 600px;
+    margin: 120px auto 80px; /* Increased top margin */
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+    transition: 0.3s ease-in-out;
+    text-align: center; /* Ensures elements remain centered */
+}
+
+/* Profile Section */
+.profile-section {
+    text-align: center;
+}
+
+.profile-section h2 {
+    font-size: 26px;
+    color: #222;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+/* Display Fields */
+.profile-section p {
+    font-size: 18px;
+    margin: 12px 0;
+    font-weight: 500;
+}
+
+.profile-section strong {
+    color: #007bff;
+    font-weight: 600;
+}
+
+/* Edit Profile Button */
+#editProfileBtn {
+    display: block;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 12px 24px;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 25px auto; /* Ensures button remains centered */
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+#editProfileBtn:hover {
+    background: linear-gradient(135deg, #0056b3, #004199);
+    box-shadow: 0 6px 12px rgba(0, 86, 179, 0.3);
+}
+
+/* Edit Form */
+#editProfileForm {
+    display: none;
+    text-align: center;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Input Fields */
+#editProfileForm label {
+    display: block;
+    font-weight: 600;
+    margin-top: 15px;
+    text-align: left;
+}
+
+#editProfileForm input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 17px;
+    transition: 0.3s ease-in-out;
+    background: none;
+}
+
+#editProfileForm input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+/* Buttons */
+#editProfileForm button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+/* Save Button */
+#editProfileForm button[type="submit"] {
+    background: linear-gradient(135deg, #28a745, #218838);
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.2);
+}
+
+#editProfileForm button[type="submit"]:hover {
+    background: linear-gradient(135deg, #218838, #1c7430);
+    box-shadow: 0 6px 12px rgba(33, 136, 56, 0.3);
+}
+
+/* Cancel Button */
+#cancelEdit {
+    background: linear-gradient(135deg, #dc3545, #c82333);
+    color: white;
+    border: none;
+    margin-left: 12px;
+    box-shadow: 0 4px 8px rgba(220, 53, 69, 0.2);
+}
+
+#cancelEdit:hover {
+    background: linear-gradient(135deg, #c82333, #b21f2d);
+    box-shadow: 0 6px 12px rgba(200, 35, 45, 0.3);
+}
+/* Modal Styles */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Modal Heading */
+.modal-content h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Form Structure */
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label Styling */
+.modal-content label {
+    font-weight: bold;
+    text-align: left;
+    margin-top: 12px; /* Adds space above labels */
+}
+
+/* Input Fields */
+.modal-content input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px; /* Ensures spacing below the label */
+    border: 1px solid #ccc;
+}
+.modal-content button {
+    width: 50%;
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.modal-content button:hover {
+    transform: scale(1.04);
+}
+
+/* Close Icon */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #333;
+}
+
+.close:hover {
+    color: red;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-content {
+        width: 90%;
+        padding: 25px;
+    }
+
+    #editProfileBtn, #editProfileForm button {
+        width: 100%;
+    }
+}
